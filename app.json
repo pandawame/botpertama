@@ -26,6 +26,11 @@
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
+    "DATABASE_URL": {
+      "description": "Your MongoDB URL for Database",
+      "value": "",
+      "required": true
+    },
     "SCREENSHOTS": {
       "description": "Generate screenshots for file after uploading ( True or false )",
       "value": "True",
