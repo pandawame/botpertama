@@ -18,6 +18,11 @@
       "description": "Your bot token from @botfather, as a string.",
       "value": ""
     },
+    "DATABASE_URL": {
+      "description": "Your MongoDB URL for Database. Ask in Support Group: https://t.me/linux_repo",
+      "value": "",
+      "required": true
+    },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
       "value": ""
