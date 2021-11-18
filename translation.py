@@ -1,6 +1,6 @@
 class Translation(object):
 
-    START_TEXT = """Hello,
+    START_TEXT = """Halo,
 
 This is a Telegram URL Upload Bot!
 
