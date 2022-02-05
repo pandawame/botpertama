@@ -22,7 +22,7 @@ Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!
     FORMAT_SELECTION = """Pilih Format | <a href='{}'>Perkiraan Ukuran Berkas</a>"""
     
     SET_CUSTOM_USERNAME_PASSWORD = """Format Khusus:
-URL | Nama Berkas Baru | Username | Password"""
+Tautan | Nama Berkas Baru | ID Pengguna | Sandi"""
 
 
     UPGRADE_TEXT = "\n\n<a href='https://github.com/'>Nikmati!</a>"
