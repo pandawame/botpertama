@@ -2,11 +2,13 @@ class Translation(object):
 
     START_TEXT = """Halo,
 
-This is a Telegram URL Upload Bot!
+Aku dapat melakukan banyak hal yang tidak dijelaskan oleh Penciptaku.
+Tidak semua orang dapat menjalankan fiturku!
 
+Fitur Dasar
 <b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
 
-/help for more details..
+Ketik /help untuk fitur dasarku.
 
 Support Group : @AkuMACI
 """
@@ -24,7 +26,7 @@ Support Group : @AkuMACI
 Support Group : @tanyamaci
 """
 
-    FORMAT_SELECTION = """Select the desired format: <a href='{}'>file size might be approximate</a>
+    FORMAT_SELECTION = """Pilih format yang diinginkan: <a href='{}'>perkiraan ukuran berkas</a>
     
 Send your custum thumbnail if required.
 You can use /deletethumbnail to delete the auto-generated thumbnail."""
@@ -35,9 +37,9 @@ URL | newfilename | username | password"""
 
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
     
-    DOWNLOAD_START = "Sedang mengunduh filemu..."
+    DOWNLOAD_START = "Sedang mengunduh berkasmu..."
     
-    UPLOAD_START = "Sedang mengunggah.."
+    UPLOAD_START = "Sedang mengunggah..."
     
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
 
