@@ -17,10 +17,9 @@ Untuk menghapus Thumbnail ketik /deletethumbnail
 Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!</b>
 """
 
-    FORMAT_SELECTION = """Pilih format yang diinginkan: <a href='{}'>perkiraan ukuran berkas</a>"""
+    FORMAT_SELECTION = """ """
     
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | newfilename | username | password"""
+    SET_CUSTOM_USERNAME_PASSWORD = """ """
 
 
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
