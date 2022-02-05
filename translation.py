@@ -3,51 +3,44 @@ class Translation(object):
     START_TEXT = """Halo,
 
 Aku dapat melakukan banyak hal yang tidak dijelaskan oleh Penciptaku.
-Tidak semua orang dapat menjalankan fiturku!
 
-Fitur Dasar
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
+<b>Tidak semua orang dapat menjalankan fiturku!</b>
 
 Ketik /help untuk fitur dasarku.
-
-Support Group : @AkuMACI
 """
 
-    HELP_USER = """Hai I'am a URL Uploader bot..
+    HELP_USER = """Fitur dasarku..
     
-1. Send url (Link | New Name with Extension).
-2. Send Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
-   Video  - Give File as video without Screenshots
-   DFile  - Give File without Screenshots
-
-Support Group : @tanyamaci
+1. Untuk mengganti nama berkas kirim (Tautan | Nama Baru beserta Ekstensi).
+2. Thumbnail bersifat permanen.
+   Untuk menghapus Thumbnail ketik /deletethumbnail
+   Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!
+3. Penjelasan <b>Button</b>:
+   SVideo - Kirim video asli serta tangkapan layar.
+   DFile  - Kirim berkas serta tangkapan layar.
+   Video  - Kirim berkas video tanpa tangkapan layar.
+   DFile  - Kirim berkas tanpa tangkapan layar.
+   
+   <i>Fitur tangkapan layar secara default tidak diaktifkan oleh Penciptaku.</i>
 """
 
-    FORMAT_SELECTION = """Pilih format yang diinginkan: <a href='{}'>perkiraan ukuran berkas</a>
-    
-Send your custum thumbnail if required.
-You can use /deletethumbnail to delete the auto-generated thumbnail."""
+    FORMAT_SELECTION = """Pilih format yang diinginkan: <a href='{}'>perkiraan ukuran berkas</a>"""
     
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | newfilename | username | password"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
-    
     DOWNLOAD_START = "Sedang mengunduh berkasmu..."
     
     UPLOAD_START = "Sedang mengunggah..."
     
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \n\nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Diundah dalam {} detik. \n\nDiunggah dalam {} detik."
 
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
+    RCHD_TG_API_LIMIT = "Diunduh {} detik.\nUkuran Berkas Terdeteksi : {}\nMaaf. Tetapi, Aku tidak dapat mengunggah berkas yang lebih besar dari 1,95GB karena keterbatasan API Telegram."
 
-    SAVED_CUSTOM_THUMB_NAIL = "Custom thumbnail saved. This will be permanent.\n\nUse /deletethumbnail to clear it."
+    SAVED_CUSTOM_THUMB_NAIL = "Thumbnail telah disimpan."
 
-    DEL_ETED_CUSTOM_THUMB_NAIL = "Custom thumbnail cleared succesfully."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "Thumbnail telah dihapus."
 
     CUSTOM_CAPTION_UL_FILE = " "
 
