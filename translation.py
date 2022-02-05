@@ -17,12 +17,13 @@ Untuk menghapus Thumbnail ketik /deletethumbnail
 Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!</b>
 """
 
-    FORMAT_SELECTION = """ """
+    FORMAT_SELECTION = """Pilih format: <a href='{}'>perkiraan ukuran berkas</a>"""
     
-    SET_CUSTOM_USERNAME_PASSWORD = """ """
+    SET_CUSTOM_USERNAME_PASSWORD = """Format mengunduh video premium:
+URL | Nama Berkas Baru | Username | Password"""
 
 
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  \n\n<a href='https://github.com/prgofficial/URLuploader-With-Hotstar'>Click here, Fork and deploy!!</a>"
+    UPGRADE_TEXT = "\n\n<a href='https://github.com/'>Nikmati!</a>"
     
     DOWNLOAD_START = "Sedang mengunduh berkasmu..."
     
