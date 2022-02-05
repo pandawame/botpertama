@@ -9,7 +9,7 @@ Ketik /help untuk fitur dasar.
 """
 
     HELP_USER = """
-1. Thumbnail bersifat permanen.
+1. Thumbnail bersifat permanen!
    
 <b>Fitur tangkapan layar secara default tidak diaktifkan oleh Penciptaku.</b>
 
@@ -19,9 +19,9 @@ Untuk menghapus Thumbnail ketik /deletethumbnail
 Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!
 """
 
-    FORMAT_SELECTION = """Pilih format: <a href='{}'>perkiraan ukuran berkas</a>"""
+    FORMAT_SELECTION = """Pilih Format | <a href='{}'>Perkiraan Ukuran Berkas</a>"""
     
-    SET_CUSTOM_USERNAME_PASSWORD = """Format khusus:
+    SET_CUSTOM_USERNAME_PASSWORD = """Format Khusus:
 URL | Nama Berkas Baru | Username | Password"""
 
 
