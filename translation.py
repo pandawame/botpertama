@@ -11,15 +11,17 @@ Ketik /help untuk fitur dasar.
     HELP_USER = """
 1. Thumbnail bersifat permanen.
    
-   <b>Fitur tangkapan layar secara default tidak diaktifkan oleh Penciptaku.
+<b>Fitur tangkapan layar secara default tidak diaktifkan oleh Penciptaku.</b>
+
 Untuk mengganti nama berkas kirim (Tautan | Nama Baru beserta Ekstensi).
+
 Untuk menghapus Thumbnail ketik /deletethumbnail
-Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!</b>
+Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!
 """
 
     FORMAT_SELECTION = """Pilih format: <a href='{}'>perkiraan ukuran berkas</a>"""
     
-    SET_CUSTOM_USERNAME_PASSWORD = """Format mengunduh video premium:
+    SET_CUSTOM_USERNAME_PASSWORD = """Format khusus:
 URL | Nama Berkas Baru | Username | Password"""
 
 
