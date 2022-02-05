@@ -1,6 +1,6 @@
 class Translation(object):
 
-    START_TEXT = """Halo,
+    START_TEXT = """Halo!
 
 Aku dapat melakukan banyak hal yang tidak dijelaskan oleh Penciptaku.
 
