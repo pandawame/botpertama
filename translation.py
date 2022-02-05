@@ -1,26 +1,21 @@
 class Translation(object):
 
-    START_TEXT = """Halo!
-
+    START_TEXT = """
 Aku dapat melakukan banyak hal yang tidak dijelaskan oleh Penciptaku.
 
 <b>Tidak semua orang dapat menjalankan fiturku!</b>
 
-Ketik /help untuk fitur dasarku.
+Ketik /help untuk fitur dasar.
 """
 
     HELP_USER = """
-1. Untuk mengganti nama berkas kirim (Tautan | Nama Baru beserta Ekstensi).
-2. Thumbnail bersifat permanen.
-3. Penjelasan <b>Button</b>:
-   SVideo - Kirim video asli serta tangkapan layar.
-   DFile  - Kirim berkas serta tangkapan layar.
-   Video  - Kirim berkas video tanpa tangkapan layar.
-   DFile  - Kirim berkas tanpa tangkapan layar.
+1. Thumbnail bersifat permanen.
    
    <b>Fitur tangkapan layar secara default tidak diaktifkan oleh Penciptaku.
-      Untuk menghapus Thumbnail ketik /deletethumbnail
-      Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!</b>
+
+Untuk mengganti nama berkas kirim (Tautan | Nama Baru beserta Ekstensi).
+Untuk menghapus Thumbnail ketik /deletethumbnail
+Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!</b>
 """
 
     FORMAT_SELECTION = """Pilih format yang diinginkan: <a href='{}'>perkiraan ukuran berkas</a>"""
@@ -39,10 +34,10 @@ Ketik /help untuk fitur dasarku.
 
     CUSTOM_CAPTION_UL_FILE = " "
 
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    SLOW_URL_DECED = "Ya ampun, tampaknya berkas ini dihosting pada server yang sangat lambat, dan Aku tidak berminat untuk mengunduh berkas ini."
 
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
+    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> mengatakan: {}"
     
-    SHOW_THUMB = "Use /deletethumbnail to clear this thumbnail."
+    SHOW_THUMB = " "
     
-    NO_THUMB = "No saved thumbnails Found!!\n\nSend an image to save it as your thumbnail permanently."    
+    NO_THUMB = " "    
