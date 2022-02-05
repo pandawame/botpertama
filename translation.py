@@ -3,7 +3,7 @@ class Translation(object):
     START_TEXT = """
 Aku dapat melakukan banyak hal yang tidak dijelaskan oleh Penciptaku.
 
-<b>Tidak semua orang dapat menjalankan fiturku!</b>
+<b>Tidak semua orang dapat menjalankan fitur Advance!</b>
 
 Ketik /help untuk fitur dasar.
 """
