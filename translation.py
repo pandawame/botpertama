@@ -8,7 +8,7 @@ This is a Telegram URL Upload Bot!
 
 /help for more details..
 
-Support Group : @tanyamaci
+Support Group : @AkuMACI
 """
 
     HELP_USER = """Hai I'am a URL Uploader bot..
