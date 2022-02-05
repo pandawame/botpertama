@@ -9,26 +9,21 @@ Aku dapat melakukan banyak hal yang tidak dijelaskan oleh Penciptaku.
 Ketik /help untuk fitur dasarku.
 """
 
-    HELP_USER = """Fitur dasarku..
-    
+    HELP_USER = """
 1. Untuk mengganti nama berkas kirim (Tautan | Nama Baru beserta Ekstensi).
 2. Thumbnail bersifat permanen.
-   Untuk menghapus Thumbnail ketik /deletethumbnail
-   Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!
 3. Penjelasan <b>Button</b>:
    SVideo - Kirim video asli serta tangkapan layar.
    DFile  - Kirim berkas serta tangkapan layar.
    Video  - Kirim berkas video tanpa tangkapan layar.
    DFile  - Kirim berkas tanpa tangkapan layar.
    
-   <i>Fitur tangkapan layar secara default tidak diaktifkan oleh Penciptaku.</i>
+   <b>Fitur tangkapan layar secara default tidak diaktifkan oleh Penciptaku.
+      Untuk menghapus Thumbnail ketik /deletethumbnail
+      Kamu hanya perlu mengirim Thumbnail baru untuk menimpanya!</b>
 """
 
     FORMAT_SELECTION = """Pilih format yang diinginkan: <a href='{}'>perkiraan ukuran berkas</a>"""
-    
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | newfilename | username | password"""
-
 
     DOWNLOAD_START = "Sedang mengunduh berkasmu..."
     
