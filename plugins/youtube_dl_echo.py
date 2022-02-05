@@ -176,7 +176,7 @@ async def echo(bot, update):
                 else:
                     ikeyboard = [
                         InlineKeyboardButton(
-                            "SVideok [" +
+                            "SVideo [" +
                             "] ( " +
                             approx_file_size + " )",
                             callback_data=(cb_string_video).encode("UTF-8")
